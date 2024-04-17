@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2? family= Dela+Gothic+One & family= Roboto:wght@300 & display=swap');
+
+:root{
+    --corPrincipal:#b0f2c2;
+    --corSecundaria:seagreen;
+    --letraCursiva:'Roboto', sans-serif;
+}
+
+/* Resentando o css */
+*{
+    margin:0; /* Margem */
+    padding:0; /* Espaço interno */
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: var(--corPrincipal); /* Muda a cor do fundo */
+}
+header, main{
+    width:px;
+    margin: 0 auto;
+}
+
+
+.titulo-principal{
+    color:seagreen; /* Cor do texto */
+    font-weight: bold; /* Define negrito ou não do texto */
+    font-size: 4em; /* Tamanho da fonte. 4x mais que o padrão */
+    font-family:'Dela Gothic One', sans-serif; /* Define a fonte */
+    text-shadow: 4px 3px 4px LimeGreen;
+    line-height: 4px; /* Espaço entre linhas */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family:'Dela Gothic One', sans-serif;
+    font-size: 40px;
+    /*text-shadow: 4px 3px 4px mistyrose;*/
+    line-height: 4px; /* Espaço entre linhas */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+h3{
+    font-family:'Dela Gothic One', sans-serif;
+    font-size: 40px;
+    /*text-shadow: 4px 3px 4px mistyrose;*/
+    line-height: 4px; /* Espaço entre linhas */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+
+
+.albumFoto{
+    margin:0 auto;
+    display: block;
+    justify-content:space-between;
+    width: 800px;
+    height: 500px;
+    margin-bottom: 20px;
+    
+}
+
+.tabela{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #8ef0b4;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 40px;
+
+}
+
+
+.Formulario{ 
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px; 
+    margin: 0px; 
+
+}
+
+.rodape{
+    color: green;
+    font-size: 18px;
+    text-align:center;
+    padding: 10px; 
+    margin-bottom: 100px; 
+}
+
